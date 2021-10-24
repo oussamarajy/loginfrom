@@ -1,0 +1,255 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-image: url('back.jpg');
+}
+
+form input{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+    
+}
+
+form{
+    text-align: center;
+    margin: 100px;
+    
+    width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background: rgb(27, 26, 26, .5);
+    border-radius: 15px;
+    box-shadow: 0 0 4px #03e669;
+    animation: bord 2s infinite;
+    animation-timing-function: linear;
+    backdrop-filter: blur(15px);
+}
+
+form input[type=text]{
+    padding: 10px 40px;
+    border: 2px solid greenyellow;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    text-align: center;
+    box-shadow: 0 0 10px #05f571;
+    
+    
+    
+
+    
+}
+
+
+form input[type=text]::placeholder{
+    font-size: 15px;
+    opacity: 0.35;
+    font-weight: normal;
+}
+
+
+form input[type=password]::placeholder{
+    font-size: 15px;
+    opacity: 0.35;
+    font-weight: normal;
+}
+form input[type=password]{
+    padding: 10px 40px;
+    border: 2px solid greenyellow;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    text-align: center;
+    box-shadow: 0 0 10px #05f571;
+    
+    
+    
+
+    
+}
+form label {
+    color:white;
+    
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 100px;
+    position: relative;
+    line-height: 35px;
+    text-transform: capitalize;
+    background: #1b1a1a;
+    
+}
+
+form input[type=button]{
+    margin-top: 20px;
+    padding: 10px 30px;
+    background: rgb(61, 121, 2);
+    color: white;
+    border: 1px solid green;
+    border-radius: 8px;
+    font-size: 15px;
+    text-transform: uppercase;
+    box-shadow: 0 0 10px #047c3a;
+    
+
+    
+}
+form input[type=button]:hover{
+    background: rgb(37, 73, 2);
+    transition: .3s;
+}
+#check{
+    display: inline;
+    padding: 10px;
+    margin: 10px;
+    
+}
+
+h3{
+    color: white;
+    text-align: center;
+    top: 55px;
+    position: relative;
+    font-weight: bold; 
+    font-size: 70px;
+    text-shadow:0 0 10px #047c3a ;
+    font-family: Impact, fantasy;
+    
+    
+    
+    
+
+}
+
+@keyframes title{
+    0%{
+transform: translateY(10px);
+transition: .5s;
+    }
+    100%{
+        transform: translateY(-5px);
+        
+        
+    }
+   
+
+}
+@keyframes bord{
+    0%{
+        box-shadow: 0 0 10px #05f571;
+        
+    }
+    
+   
+    100%{
+        box-shadow: 0 0 15px #9ae9bd;
+        
+    }
+}
+
+@media (max-width:532px) {
+
+    form{
+    text-align: center;
+    margin: 100px;
+    
+    width: 300px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background: #1b1a1a;
+    border-radius: 15px;
+    box-shadow: 0 0 4px #03e669;
+    animation: bord 2s infinite;
+    animation-timing-function: linear;
+}
+}
+@media (max-width:318px) {
+
+    form{
+    text-align: center;
+    margin: 100px;
+    
+    width: 200px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background: #1b1a1a;
+    border-radius: 15px;
+    box-shadow: 0 0 4px #03e669;
+    animation: bord 2s infinite;
+    animation-timing-function: linear;
+}
+form input[type=button]{
+    margin-top: 20px;
+    padding: 7px 20px;
+    background: rgb(61, 121, 2);
+    color: white;
+    border: 1px solid green;
+    border-radius: 8px;
+    font-size: 15px;
+    text-transform: uppercase;
+    box-shadow: 0 0 10px #047c3a;
+    
+
+    
+}
+form input[type=text]{
+    padding: 8px 8px;
+    border: 2px solid greenyellow;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    text-align: center;
+    box-shadow: 0 0 10px #05f571;
+    
+    
+
+    
+}
+form input[type=password]{
+    padding: 8px 8px;
+    border: 2px solid greenyellow;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    text-align: center;
+    box-shadow: 0 0 10px #05f571;
+    
+    
+
+    
+}
+}
+
+footer{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    background: #1b1a1a;
+    
+    
+}
+footer p{
+    color: rgb(16, 156, 4);
+    background-color: #1b1a1a;
+    padding: 25px;
+    font-size: 12px;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
